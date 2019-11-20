@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="img/icon.ico" />
+  <title>SportDeck</title>
+</head>
+
+<body id="home" class="scrollspy">
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav class="main">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">SportDeck</a>
+          <img id="imgLogo" class="responisve-img" src="img/logo.png">
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right  hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#projeto">O que é o SportDeck?</a>
+            </li>
+            <li>
+              <a href="#participar">Como participar</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-nav">
+    <li>
+      <a class="waves-effect waves-orange btn-sml sidenav-close" href="#home">Home</a>
+    </li>
+    <li>
+      <a class="waves-effect waves-lime btn-sml sidenav-close" href="#projeto">O que é o SportDeck?</a>
+    </li>
+    <li>
+      <a class="waves-effect waves-red btn-sml sidenav-close" href="#participar">Como participar</a>
+    </li>
+    <li>
+      <a class="waves-effect waves-purple btn-sml sidenav-close" href="#contato">Contato</a>
+    </li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/slider1.jpg">
+        <!-- random image -->
+        <div class="caption center-align">
+          <h2 class="simple oswald">Se torne um esportista cada vez melhor</h2>
+          <h5 class="simple light grey-text text-lighten-3 hide-on-small-only">Com o SportDeck, você desenvolve e
+            acompanha seu progresso nos esportes de maneira prática e fácil.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider2.jpg">
+        <div class="caption left-align">
+          <h2 class="simple oswald">Faça avaliações de seus colegas</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Além de se autoavaliar, o SportDeck permite você
+            avaliar o progresso do seu colega. Incentive-o cada vez mais!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider3.jpg">
+        <div class="caption right-align">
+          <h2 class="simple oswald">Participe dos eventos na sua área</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Ao usar o SportDeck você recebe notícias sobre
+            os eventos esportivos da sua escola e como participar.</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section: Sobre o projeto-->
+  <section id="projeto" class="section section-popular scrollspy center">
+    <div class="container">
+      <div class="row">
+        <h2 class="center bigFont oswald">O que é o SportDeck?</h2>
+      </div>
+      <div class="row">
+        <p class="flow-text justify">O SportDeck é um aplicativo desenvolvido por <a class="themeLink"
+            href="#devs">alunos</a> e
+          idealizado pelo professor de educação física Leonardo Coelho, em conjunto com o coordenador do curso de
+          Informática, Alisson Marques do Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG) Campus V, em
+          Divinópolis. Ainda em sua versão inicial, o SportDeck tem como objetivo promover a prática esportiva dos
+          estudantes no campus, dando aos usuários um sistema de avaliação de habilidade esportiva para possam
+          acompanhar seu desenvolvimento.</p>
+        <p class="flow-text">Além disso, o app permite aos alunos receber notificações sobre os eventos que irão ocorrer
+          na escola, ao mesmo tempo que dá aos professores de educação física uma ajuda a respeito de qual esporte está
+          em alta no campus facilitando a escolha e organização de oficinas esportivas.</p>
+      </div>
+  </section>
+
+  <!-- Desenvolvedores -->
+  <section id="devs" class="section scrollspy center">
+    <div class="container">
+      <div class="row">
+        <h3 class="oswald center">Desenvolvedores</h3>
+      </div>
+      <div class="row">
+        <div class="devPerfil col s12 m4">
+          <div class="devPerfil">
+            <img class="circle responsive-img" src="img/dev1.jpeg">
+            <h4>Augusto Ferreira</h4>
+          </div>
+        </div>
+        <div class="hide-on-med-and-up divider "></div>
+        <div class="col s12 m4">
+          <div class="devPerfil">
+            <img class="circle responsive-img" src="img/dev2.jpeg">
+            <h4>Guilherme Ribeiro</h4>
+          </div>
+        </div>
+        <div class="hide-on-med-and-up show-on-small divider"></div>
+        <div class="devPerfil col s12 m4">
+          <div class="devPerfil">
+            <img class="circle responsive-img" src="img/dev3.jpeg">
+            <h4>Vinicius Silva Gomes</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Popular Places -->
+  <section id="participar" class="section scrollspy teal lighten-1 white-text">
+    <div class="container">
+      <div class="row">
+        <h3 class="center oswald">Como Participar</h3>
+      </div>
+      <div class="row">
+        <p class="flow-text">Para participar é fácil, bastar ser um aluno do ensino integrado do Campus V e requisitar
+          ao seu professor de educação física o acesso ao app. Depois disso basta clicar no link abaixo e instalar o
+          aplicativo em seu dispositivo móvel.</p>
+    </div>
+    <div class="row">
+      <div class="col s12 center">
+        <h4 class="oswald">Faça o download</h4>
+        <p>Baixe o app clicando no botão abaixo*</p>
+        <a href="">
+          <img width="250" src="img/download.png" alt="" class="center responsive-img"">
+          </a>
+          <p>*Ao fazer o download do aplicativo você aceita nossos <a href="pages/termos.html" style="color: #F4F5F7; text-decoration: underline;">Termos de Uso</a></p>      
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Contato -->
+  <section id="contato" class="section section-follow main white-text center">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h4>SportDeck</h4>
+                <p>Nos siga em todas as redes sociais!!</p>
+                <a href="#" class="white-text">
+                  <i class="fab fa-facebook fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                  <i class="fab fa-twitter fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                  <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                  <i class="fab fa-google-plus fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                  <i class="fab fa-pinterest fa-4x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer main">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 SportDeck
+      </div>
+  </footer>
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+  <script>
+    // Lax Animations
+    window.onload = function () {
+      lax.setup() // init
+
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
+
+      window.requestAnimationFrame(updateLax)
+    }
+
+    // Sidenav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+
+    // Slider
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 500,
+      transition: 500,
+      interval: 6000
+    });
+
+    // Material Boxed
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
+
+    // ScrollSpy
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+
+  </script>
+</body>
+
+</html>
